@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+/* font-family: 'Itim', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    background: linear-gradient(90deg,#00000000, #000000e3),url(photo/time.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.todoList {
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(45deg, black, transparent);
+    padding: 100%;
+}
+b{
+    float: right;
+    color:#ff7600;
+    cursor:pointer;
+}
+strong{
+    background:#ff7600;
+    border-radius:5px;
+    padding:0px 5px 2px 2px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+.container{
+    display:block;
+    margin:auto;
+    width:100%;
+    max-width: 950px;
+}
+.contentWrapper{
+    overflow: hidden;
+    position: relative;
+}
+
+.appBox{
+    float:left;
+    width:50%;
+    background: white;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 5px;
+    height: 650px;
+}
+.titleBox{
+    float:right;
+    width:50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.titleBox div{
+    text-align: center;
+    font-size: 45px;
+}
+
+.titleBox div {
+    text-transform: capitalize;
+    color: white;
+    font-family: -webkit-pictograph;
+}
+.titleBox div span {
+    font-size: 20px;
+}
+.titleLine h1 {
+    color: #000000;
+    text-align: right;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+}
+.allListToDo div {
+    font-size: 16px;
+    background: #fff;
+    margin: 13px 0px;
+    border-radius: 5px;
+    padding: 9px 15px;
+    box-shadow: 3px 3px 5px 1px #a3a3a394;
+    border: 1px solid #cccccc82;
+    font-family: sans-serif;
+    color: #636363;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.editOption {
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.inboxDesign input {border: 1px solid #f7d52e;border-radius: 25px;outline: none;padding: 15px 15px;font-size: 18px;width: 100%;}
+
+
+.inboxDesign{
+    width: 73%;
+    float: left;
+}
+.plusBtn i {
+    float: right;
+    background: #ff7600;
+    padding: 18px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 3px 4px #7e7979;
+}
+.plusBtn i:active {
+    transform:translate(1px,1px);
+    -webkit-transform:translate(1px,1px);
+    -moz-transform:translate(1px,1px);
+    -ms-transform:translate(1px,1px);
+    -o-transform:translate(1px,1px);
+}
+.plusBtn {
+    width:20%;
+    float:right;
+}
+
+.titleLine {
+    background: #b1abab3d;
+    border-bottom-right-radius: 83%;
+    width: 100%;
+}
+.borderRed{
+    border: 2px solid red !important;
+    box-shadow: 0px 0px 12px 0px #ff0000e6;
+
+}
+.borderRed::placeholder{
+    color:red;
+}
+
+
+.allListToDo div b i{
+    margin:0px 3px;
+    font-size: 18px;
+}
+.allListToDo div b i:hover{
+    color:#030200;
+}
+.allListToDo div b i:active{
+    color:#ff0000;
+}
+
+
+.doneKey{
+    text-decoration:line-through;
+    
+}
+img.todoPhoto {
+    width: 100%;
+}
+.imgBox {
+    width: 65%;
+    margin: auto;
+}
+.titleLine h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
